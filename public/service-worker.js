@@ -1,3 +1,5 @@
+
+/* eslint-disable no-restricted-globals */
 const CACHE_NAME = "app-cache-v1";
 const urlsToCache = ["/", "/index.html", "/styles.css", "/script.js"];
 

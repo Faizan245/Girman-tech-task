@@ -25,6 +25,12 @@
       "react-app/jest"
     ]
   },
+  "homepage": ".",
+  "workboxConfig": {
+    "swSrc": "src/service-worker.js",
+    "swDest": "service-worker.js"
+  },
+
   "browserslist": {
     "production": [
       ">0.2%",
